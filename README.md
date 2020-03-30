@@ -1,4 +1,4 @@
-## Simple Timer made with React.
+## Simple Timer made with React
 
 In the project directory, you can run:
 
