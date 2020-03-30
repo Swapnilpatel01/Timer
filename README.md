@@ -1,9 +1,5 @@
 ## Simple Timer made with React.
 
-
-
-## Available Scripts
-
 In the project directory, you can run:
 
 ### `yarn start`
