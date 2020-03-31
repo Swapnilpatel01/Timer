@@ -188,7 +188,6 @@ function Timer() {
         className="time-input"
         type="number"
         min="0"
-       
         onChange={handleChange2}
         id="resetMin"
         placeholder="Minute(s)"
