@@ -15,16 +15,16 @@ function Timer() {
       setPlaying(true)
     }
 
-    if(document.getElementById("resetSec").value == '' && document.getElementById("resetMin").value == '' && 
-      document.getElementById("resetHour").value == '' || document.getElementById("resetSec").value == 0 && 
-      document.getElementById("resetMin").value == 0 && document.getElementById("resetHour").value == 0) {
+    if(document.getElementById("resetSec").value === '' && document.getElementById("resetMin").value === '' && 
+      document.getElementById("resetHour").value === '' || document.getElementById("resetSec").value === 0 && 
+      document.getElementById("resetMin").value === 0 && document.getElementById("resetHour").value === 0) {
         alert('Please enter in your time')
         setPlaying(false)
     }
 
-    if(document.getElementById("resetHour").value > 0 && document.getElementById("resetMin").value == 0 && 
-      document.getElementById("resetSec").value == 0 || (document.getElementById("resetSec").value == 0 && 
-      document.getElementById("resetHour").value == 0 && document.getElementById("resetHour").value > 1)) {
+    if(document.getElementById("resetHour").value > 0 && document.getElementById("resetMin").value === 0 && 
+      document.getElementById("resetSec").value === 0 || (document.getElementById("resetSec").value === 0 && 
+      document.getElementById("resetHour").value === 0 && document.getElementById("resetHour").value > 1)) {
        setPlaying(true)
     }
   };
@@ -44,7 +44,7 @@ function Timer() {
       setCount(59)
     }
 
-    if(event.target.value == 0) {
+    if(event.target.value === 0) {
       event.target.value = ''
       setCount(0)
     }
@@ -62,7 +62,7 @@ function Timer() {
       setCount2(59)
     }
 
-    if(event.target.value == 0) {
+    if(event.target.value === 0) {
       event.target.value = ''
       setCount2(0)
       
@@ -80,7 +80,7 @@ function Timer() {
       setCount3(24)
     }
 
-    if(event.target.value == 0) {
+    if(event.target.value === 0) {
       event.target.value = ''
       setCount3(0)
       
